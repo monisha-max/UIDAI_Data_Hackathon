@@ -1,6 +1,6 @@
-# 🇮🇳 Aadhaar Operational Intelligence Platform
 
-### UIDAI Aadhaar Hackathon 2025
+
+### UIDAI Data Hackathon 2026
 
 ---
 
@@ -31,9 +31,9 @@ An AI-powered analytics platform that processes **4.9 MILLION Aadhaar records** 
 
 ---
 
-## 🧠 Two Powerful Modules
+## 🧠 Modules
 
-### 📡 Module 1: Mobility Signal Index (MSI)
+### 📡 Module 2a: Mobility Signal Index (MSI)
 
 > *"Where are people moving? When? How fast is it spreading?"*
 
@@ -50,7 +50,7 @@ An AI-powered analytics platform that processes **4.9 MILLION Aadhaar records** 
 
 ---
 
-### ⚖️ Module 2: Biometric Load Balancer
+### ⚖️ Module 2b: Biometric Load Balancer
 
 > *"Which centers will be overloaded next month? Where should we redirect people?"*
 
@@ -69,7 +69,7 @@ An AI-powered analytics platform that processes **4.9 MILLION Aadhaar records** 
 
 ---
 
-## 📊 11 Interactive Dashboards
+## Interactive Dashboards
 
 All dashboards are **fully interactive** with hover details, zoom, and filtering.
 
@@ -109,52 +109,7 @@ python biometric_load_balancer.py
 ## 🛠️ Tech Stack
 
 ```
-Python 3.10+ | Pandas | NumPy | Plotly | SciPy
+Python 3.10+ | Plotly
 ```
-
 ---
 
-## 📁 Repository Contents
-
-```
-├── mobility_signal_index_analysis.py   ← MSI Engine
-├── biometric_load_balancer.py          ← Load Balancer Engine
-├── MSI_Analysis_Hackathon.ipynb        ← Interactive Notebook
-├── msi_visualizations/                 ← 6 Interactive Dashboards
-├── load_balancer_visualizations/       ← 5 Interactive Dashboards
-└── api_data_aadhar_*/                  ← 4.9M Records (3 datasets)
-```
-
----
-
-## 🎯 Key Algorithms
-
-**MSI Score:**
-```python
-MSI = inverse_correlation × (1 + spatial_spread) × anomaly_magnitude
-```
-
-**Load Score:**
-```python
-LoadScore = (forecast_percentile × 0.7) + (spike_risk × 0.3)
-```
-
----
-
-## 🏆 Why This Matters
-
-✅ **Early Warning System** — Detect migration patterns months before census
-
-✅ **Operational Efficiency** — Reduce wait times at overloaded centers
-
-✅ **Data-Driven Decisions** — Actionable recommendations, not just insights
-
-✅ **Scalable** — Can process millions of records in minutes
-
----
-
-<div align="center">
-
-**🇮🇳 Built for India | Built for Impact 🇮🇳**
-
-</div>
